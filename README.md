@@ -1,5 +1,27 @@
-# Vue 3 + Vite
+# goods-detail-page
+商品详情交互系统（含商品批量上架+持久化购物车）
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+## 项目介绍
+基于 Vue3 + Vite 轻量化前端单页应用，全部数据使用 localStorage 本地持久化存储，关闭浏览器数据不丢失。
 
-Learn more about IDE Support for Vue in the [Vue Docs Scaling up Guide](https://vuejs.org/guide/scaling-up/tooling.html#ide-support).
+## 核心功能
+1. 批量表单上架多个商品，支持填写商品名称、售价、多规格、多张商品图
+2. 下拉切换查看不同商品，支持删除不需要的商品
+3. 商品轮播图预览、规格选择、购买数量增减控制
+4. 加入购物车，购物车内修改数量、删除单品、自动统计总件数与总金额
+5. 购物车数据永久本地存储，刷新页面数据不消失
+
+## 运行方式
+```bash
+npm install
+npm run dev
+
+3. 点右上角绿色 **Commit changes...** → 确认提交
+4. 回到仓库首页刷新页面，就和你之前截图样式完全一致：
+大号蓝色仓库名 → 中文项目副标题 → 自动更新时间
+
+## 补充小说明
+- `README.md` 就是仓库首页展示“说明书”，写什么首页就显示什么
+- 之前默认英文是脚手架自带说明，没有业务意义，替换成项目简介才适合放简历
+
+需要我再给一版更精简、适合简历的极简版 README 吗？
